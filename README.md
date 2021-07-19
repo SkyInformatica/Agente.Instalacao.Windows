@@ -1,2 +1,2 @@
 # SkyInfo.Agente.Instalacao
-Versões públicas do agente para atualização
+Versões públicas do agente para atualização.
