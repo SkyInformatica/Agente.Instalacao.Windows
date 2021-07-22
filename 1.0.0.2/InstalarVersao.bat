@@ -2,7 +2,7 @@
 @CHCP 65001
 
 set versaoAnterior=1.0.0.2
-set versao=1.0.0.6
+set versao=1.0.0.7
 set nomeServico=SkyInfo.Agente.Servico.Agente
 set nomeDoExecutavel=SkyInfo.Agente.Servico.Agente.exe
 
