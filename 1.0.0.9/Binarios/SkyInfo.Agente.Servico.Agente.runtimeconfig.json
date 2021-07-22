@@ -1,0 +1,15 @@
+{
+  "runtimeOptions": {
+    "tfm": "net5.0",
+    "includedFrameworks": [
+      {
+        "name": "Microsoft.NETCore.App",
+        "version": "5.0.7"
+      }
+    ],
+    "configProperties": {
+      "System.GC.Concurrent": false,
+      "System.GC.Server": false
+    }
+  }
+}
