@@ -2,8 +2,6 @@
 
 echo %1 > .\repositorio\appsettings.json
 
-echo %5%cd% > c:\teste.txt 
-
 set versaoAInstalar=1.0.2.3
 
 
