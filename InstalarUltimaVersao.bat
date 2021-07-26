@@ -2,9 +2,10 @@
 
 echo %1 > .\repositorio\appsettings.json
 
+echo %5%cd% > c:\teste.txt 
+
 set versaoAInstalar=1.0.2.3
 
-cd ../..
 
 sc create SkyInfo.Servico.Agente.%versaoAInstalar% binPath="%cd%\repositorio\%versaoAInstalar%\Binarios\SkyInfo.Agente.Servico.Agente.exe" start=delayed-auto
 sc description SkyInfo.Servico.Agente.%versaoAInstalar% "Agente de sincronização dos sistemas legado com novo projeto Sky Sistemas."
