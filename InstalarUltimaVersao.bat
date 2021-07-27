@@ -2,7 +2,7 @@
 
 set versaoAInstalar=1.0.2.3
 
-copy %cd%\appsettings.json %cd%\repositorio\%versaoAInstalar%\Binarios\appsettings.json
+copy "%cd%\appsettings.json" "%cd%\repositorio\%versaoAInstalar%\Binarios\appsettings.json"
 
 sc create SkyInfo.Servico.Agente.%versaoAInstalar% binPath="%cd%\repositorio\%versaoAInstalar%\Binarios\SkyInfo.Agente.Servico.Agente.exe" start=delayed-auto
 sc description SkyInfo.Servico.Agente.%versaoAInstalar% "Agente de sincronização dos sistemas legado com novo projeto Sky Sistemas."
