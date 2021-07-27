@@ -1,9 +1,6 @@
 @CHCP 65001
 
-echo %1 > .\repositorio\appsettings.json
-
 set versaoAInstalar=1.0.2.3
-
 
 sc create SkyInfo.Servico.Agente.%versaoAInstalar% binPath="%cd%\repositorio\%versaoAInstalar%\Binarios\SkyInfo.Agente.Servico.Agente.exe" start=delayed-auto
 sc description SkyInfo.Servico.Agente.%versaoAInstalar% "Agente de sincronização dos sistemas legado com novo projeto Sky Sistemas."
