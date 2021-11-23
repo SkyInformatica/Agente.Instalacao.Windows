@@ -1,7 +1,7 @@
 @CHCP 65001
 ECHO off
 
-set versaoAInstalar=1.1.0.1
+set versaoAInstalar=1.1.0.2
 
 IF /I "%1" == "install" ( 
 
